@@ -1,0 +1,96 @@
+body {
+  background-color: #d9b9be;
+}
+* {
+  font-family: 'Hind', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.container .title {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  font-size: 30px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  flex-basis: 100%
+
+}
+.container2 .japanese{
+  align-self: flex-start;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  font-size: 30px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  flex-basis: 100%
+}
+
+.container2 .description {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  font-size: 12px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+}
+.container3 .toppings{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  font-size: 30px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  flex-basis: 100%
+
+
+}
+.container3 .sake{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  font-size: 30px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.container3 .description2 {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  font-size: 12px;
+  flex-basis: 100%
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+p {
+  margin: 10px;
+}
